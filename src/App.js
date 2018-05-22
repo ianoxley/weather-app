@@ -5,15 +5,45 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+      <main className="app">
+        <header>
+          <h1 className="app-title">Weather App</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+        <ol id="tabs">
+          <li className="tab">
+            <a href="#day-1">Day 1</a>
+          </li>
+          <li className="tab">
+            <a href="#day-2">Day 2</a>
+          </li>
+          <li className="tab">
+            <a href="#day-3">Day 3</a>
+          </li>
+          <li className="tab">
+            <a href="#day-4">Day 4</a>
+          </li>
+          <li className="tab">
+            <a href="#day-5">Day 5</a>
+          </li>
+        </ol>
+        <ol id="tab-panels">
+          <li id="day-1" className="tab-panel">
+            <div>Content Day 1</div>
+          </li>
+          <li id="day-2" className="tab-panel">
+            <div>Content Day 2</div>
+          </li>
+          <li id="day-3" className="tab-panel">
+            <div>Content Day 3</div>
+          </li>
+          <li id="day-4" className="tab-panel">
+            <div>Content Day 4</div>
+          </li>
+          <li id="day-5" className="tab-panel">
+            <div>Content Day 5</div>
+          </li>
+        </ol>
+      </main>
     );
   }
 }
