@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './header';
+
+// TODO: replace with actual data
+const data = {
+  location: 'Newcastle-upon-Tyne',
+  currentTemperature: '17'
+};
 
 class App extends Component {
   componentDidMount() {
@@ -12,9 +18,10 @@ class App extends Component {
   render() {
     return (
       <main className="app">
-        <header>
-          <h1 className="app-title">Weather App</h1>
-        </header>
+        <Header
+          location={ data.location }
+          currentTemperature={ data.currentTemperature }
+        />
         <ol id="tabs">
           <li className="tab">
             <a href="#day-1">Day 1</a>
