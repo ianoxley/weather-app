@@ -7,7 +7,7 @@ describe('Header', () => {
     const wrapper = shallow(
       <Header
         location='Newcastle-upon-Tyne'
-        currentTemperature='17'
+        currentTemperature={ 17 }
         description='Clear'
         icon='01n'
       />

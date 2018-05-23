@@ -5,7 +5,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Header
-    currentTemperature="17"
+    currentTemperature={17}
     description="Clear"
     icon="01n"
     location="Newcastle-upon-Tyne"
