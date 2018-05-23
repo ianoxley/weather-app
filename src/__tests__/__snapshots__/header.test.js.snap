@@ -6,6 +6,8 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Header
     currentTemperature="17"
+    description="Clear"
+    icon="01n"
     location="Newcastle-upon-Tyne"
 />,
   Symbol(enzyme.__renderer__): Object {
@@ -31,7 +33,22 @@ ShallowWrapper {
           id="current-temp"
 >
           17
+          º
+          <abbr
+                    title="Celcius"
+          >
+                    C
+          </abbr>
 </p>,
+        <p
+          id="description"
+>
+          Clear
+</p>,
+        <img
+          alt="Clear"
+          src="http://openweathermap.org/img/w/01n.png"
+/>,
       ],
     },
     "ref": null,
@@ -59,12 +76,59 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "17",
+          "children": Array [
+            17,
+            "º",
+            <abbr
+              title="Celcius"
+>
+              C
+</abbr>,
+          ],
           "id": "current-temp",
         },
         "ref": null,
-        "rendered": "17",
+        "rendered": Array [
+          17,
+          "º",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "C",
+              "title": "Celcius",
+            },
+            "ref": null,
+            "rendered": "C",
+            "type": "abbr",
+          },
+        ],
         "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Clear",
+          "id": "description",
+        },
+        "ref": null,
+        "rendered": "Clear",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "Clear",
+          "src": "http://openweathermap.org/img/w/01n.png",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
       },
     ],
     "type": "header",
@@ -86,7 +150,22 @@ ShallowWrapper {
             id="current-temp"
 >
             17
+            º
+            <abbr
+                        title="Celcius"
+            >
+                        C
+            </abbr>
 </p>,
+          <p
+            id="description"
+>
+            Clear
+</p>,
+          <img
+            alt="Clear"
+            src="http://openweathermap.org/img/w/01n.png"
+/>,
         ],
       },
       "ref": null,
@@ -114,12 +193,59 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "17",
+            "children": Array [
+              17,
+              "º",
+              <abbr
+                title="Celcius"
+>
+                C
+</abbr>,
+            ],
             "id": "current-temp",
           },
           "ref": null,
-          "rendered": "17",
+          "rendered": Array [
+            17,
+            "º",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "C",
+                "title": "Celcius",
+              },
+              "ref": null,
+              "rendered": "C",
+              "type": "abbr",
+            },
+          ],
           "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Clear",
+            "id": "description",
+          },
+          "ref": null,
+          "rendered": "Clear",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Clear",
+            "src": "http://openweathermap.org/img/w/01n.png",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
         },
       ],
       "type": "header",

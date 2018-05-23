@@ -1,7 +1,7 @@
 /* header.css */
 header {
-  background-color: #222;
-  color: white;
+  background-color: #fff;
+  color: #222;
   grid-row: 1;
   height: 150px;
   padding: 20px;
@@ -15,5 +15,9 @@ header {
 
 #current-temp {
   font-size: 200%;
+}
+
+abbr[title] {
+  text-decoration: none;
 }
 

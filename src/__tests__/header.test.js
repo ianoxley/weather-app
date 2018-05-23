@@ -8,6 +8,8 @@ describe('Header', () => {
       <Header
         location='Newcastle-upon-Tyne'
         currentTemperature='17'
+        description='Clear'
+        icon='01n'
       />
     );
 

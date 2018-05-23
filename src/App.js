@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
 import './css/App.css';
 import Header from './header';
-
-// TODO: replace with actual data
-const data = {
-  location: 'Newcastle-upon-Tyne',
-  currentTemperature: '17'
-};
+import data from './data';
 
 class App extends Component {
   componentDidMount() {
+    console.log(data.weather);
     if (window.history && window.history.replaceState) {
       window.history.replaceState(undefined, 'Today', '#day-1');
     }
@@ -19,8 +15,10 @@ class App extends Component {
     return (
       <main className="app">
         <Header
-          location={ data.location }
-          currentTemperature={ data.currentTemperature }
+          location={ data.name }
+          currentTemperature={ data.main.temp }
+          description={ data.weather[0].main }
+          icon={ data.weather[0].icon }
         />
         <ol id="tabs">
           <li className="tab">
