@@ -1,0 +1,19 @@
+/* header.css */
+header {
+  background-color: #222;
+  color: white;
+  grid-row: 1;
+  height: 150px;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#current-temp {
+  font-size: 200%;
+}
+

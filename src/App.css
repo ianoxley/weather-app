@@ -14,19 +14,6 @@ html, body {
   min-height: 100%;
 }
 
-header {
-  background-color: #222;
-  color: white;
-  grid-row: 1;
-  height: 150px;
-  padding: 20px;
-}
-
-.app-title {
-  font-size: 1.5em;
-  text-align: center;
-}
-
 ol {
   list-style: none;
 }
