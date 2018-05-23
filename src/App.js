@@ -3,6 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  componentDidMount() {
+    if (window.history && window.history.replaceState) {
+      window.history.replaceState(undefined, 'Today', '#day-1');
+    }
+  }
+
   render() {
     return (
       <main className="app">
