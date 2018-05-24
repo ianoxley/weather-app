@@ -13,7 +13,7 @@ const SummaryTabs = props => {
   const tabs = fiveDays.map((day, i) => {
     const dayIndex = i + 1;
     return (
-      <li className='tab'>
+      <li className='tab' key={ day.dt }>
         <a href={ `#day-${dayIndex}` }>
           <Summary
             temperature={ day.main.temp }
