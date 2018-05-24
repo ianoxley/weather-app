@@ -27,10 +27,11 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 ## TODO
-- [  ] Add the weather details when you select one of the 5 days the forecast is shown for
-- [  ] Deploy production build
-- [  ] Add missing tests for the `SummaryTabs` component
-- [  ] Move the Ajax request out of the `App` component and into a store
-- [  ] Cache the response from the API request in local storage for 3 hours (the API is only updated every 3 hours)
-- [  ] Tidy up the CSS. Each component should ideally only load what it needs
-- [  ] Create a `WeatherIcon` component so the URL to load the icons from isn't in multiple places throughout the code
+- [ ] Add the weather details when you select one of the 5 days the forecast is shown for
+- [ ] Deploy production build
+- [ ] Add missing tests for the `SummaryTabs` component
+- [ ] Move the Ajax request out of the `App` component and into a store
+- [ ] Cache the response from the API request in local storage for 3 hours (the API is only updated every 3 hours)
+- [ ] Tidy up the CSS. Each component should ideally only load what it needs
+- [ ] Create a `WeatherIcon` component so the URL to load the icons from isn't in multiple places throughout the code
+- [ ] Add a Content Security Policy
