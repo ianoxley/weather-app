@@ -28,7 +28,7 @@ const Summary = (props) => {
         <span className='day'>{ dayOfMonth }</span>
         <span class="month">{ month }</span>
       </h2>
-      <b className='temp'>{ props.temperature }º<abbr title="Celcius">C</abbr></b>
+      <b className='temp'>{ Math.round(props.temperature) }º<abbr title="Celcius">C</abbr></b>
       <img
         className='weather-icon'
         src={ `http://openweathermap.org/img/w/${props.icon}.png` }
