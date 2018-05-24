@@ -10,7 +10,7 @@ html, body {
 
 .app {
   display: grid;
-  grid-template-rows: 150px 150px 1fr;
+  grid-template-rows: 150px auto 1fr;
   min-height: 100%;
 }
 
