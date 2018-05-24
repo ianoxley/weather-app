@@ -6,13 +6,12 @@ Dependencies can be installed by running `npm install` or `yarn install`.
 
 In the project directory, you can run:
 
-### `npm start`
+### `REACT_APP_API_KEY=<your_openweathermap.org_api_key> npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+**NB** You will need to get an API key from https://openweathermap.org/
 
 ### `npm test`
 
