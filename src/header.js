@@ -8,7 +8,7 @@ const Header = (props) => {
       <h1 className="app-title">Weather for { props.location }</h1>
       <p id="current-temp">{ Math.round(props.currentTemperature) }º<abbr title="Celcius">C</abbr></p>
       <p id="description">{ props.description }</p>
-      <img src={ `http://openweathermap.org/img/w/${props.icon}.png` } alt={ props.description } />
+      <img src={ `https://openweathermap.org/img/w/${props.icon}.png` } alt={ props.description } />
     </header>
   );
 };

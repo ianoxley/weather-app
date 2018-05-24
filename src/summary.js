@@ -26,12 +26,12 @@ const Summary = (props) => {
     <React.Fragment>
       <h2>
         <span className='day'>{ dayOfMonth }</span>
-        <span class="month">{ month }</span>
+        <span className="month">{ month }</span>
       </h2>
       <b className='temp'>{ Math.round(props.temperature) }º<abbr title="Celcius">C</abbr></b>
       <img
         className='weather-icon'
-        src={ `http://openweathermap.org/img/w/${props.icon}.png` }
+        src={ `https://openweathermap.org/img/w/${props.icon}.png` }
         alt={ props.description }
       />
 
@@ -41,7 +41,7 @@ const Summary = (props) => {
 
 Summary.propTypes = {
   temperature: PropTypes.number.isRequired,
-  date: PropTypes.string.isRequired,
+  date: PropTypes.number.isRequired,
   description: PropTypes.string.isRequired,
   icon: PropTypes.string.isRequired
 };
