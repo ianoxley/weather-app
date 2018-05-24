@@ -1,0 +1,68 @@
+/* tabs.css */
+
+#tabs {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-auto-flow: row;
+  grid-row: 2;
+}
+
+#tabs > li:first-child {
+  grid-column: 1;
+}
+
+#tabs > li:last-child {
+  grid-column: 5;
+}
+
+h2 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.tab {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+#tab-panels {
+  align-self: center;
+  grid-row: 3;
+  justify-self: center;
+}
+
+#tab-panels > li {
+  display: none;
+}
+
+#tab-panels > li:target {
+  display: block;
+}
+
+a[href] {
+  color: #222;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+a[href]:hover,
+a[href]:focus,
+a[href]:active {
+  background: rgba(97, 111, 111, 0.14901960784313725);
+}
+
+.day,
+.month,
+.temp,
+.icon {
+  display: block;
+}
+
+.day {
+  font-size: 32px;
+}
+.month {
+  font-size: 16px;
+}

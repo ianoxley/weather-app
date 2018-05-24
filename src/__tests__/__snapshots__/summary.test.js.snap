@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Summary matches snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Summary
+    date="2018-05-24"
+    description="Rain"
+    icon="01n"
+    temperature={12}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <h2>
+          <span
+                    className="day"
+          />
+          <span
+                    class="month"
+          />
+</h2>,
+        <b
+          className="temp"
+>
+          12
+          º
+          <abbr
+                    title="Celcius"
+          >
+                    C
+          </abbr>
+</b>,
+        <img
+          alt="Rain"
+          className="weather-icon"
+          src="http://openweathermap.org/img/w/01n.png"
+/>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="day"
+/>,
+            <span
+              class="month"
+/>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": NaN,
+              "className": "day",
+            },
+            "ref": null,
+            "rendered": NaN,
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "class": "month",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+        ],
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            12,
+            "º",
+            <abbr
+              title="Celcius"
+>
+              C
+</abbr>,
+          ],
+          "className": "temp",
+        },
+        "ref": null,
+        "rendered": Array [
+          12,
+          "º",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "C",
+              "title": "Celcius",
+            },
+            "ref": null,
+            "rendered": "C",
+            "type": "abbr",
+          },
+        ],
+        "type": "b",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "Rain",
+          "className": "weather-icon",
+          "src": "http://openweathermap.org/img/w/01n.png",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <h2>
+            <span
+                        className="day"
+            />
+            <span
+                        class="month"
+            />
+</h2>,
+          <b
+            className="temp"
+>
+            12
+            º
+            <abbr
+                        title="Celcius"
+            >
+                        C
+            </abbr>
+</b>,
+          <img
+            alt="Rain"
+            className="weather-icon"
+            src="http://openweathermap.org/img/w/01n.png"
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="day"
+/>,
+              <span
+                class="month"
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": NaN,
+                "className": "day",
+              },
+              "ref": null,
+              "rendered": NaN,
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "class": "month",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "span",
+            },
+          ],
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              12,
+              "º",
+              <abbr
+                title="Celcius"
+>
+                C
+</abbr>,
+            ],
+            "className": "temp",
+          },
+          "ref": null,
+          "rendered": Array [
+            12,
+            "º",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "C",
+                "title": "Celcius",
+              },
+              "ref": null,
+              "rendered": "C",
+              "type": "abbr",
+            },
+          ],
+          "type": "b",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Rain",
+            "className": "weather-icon",
+            "src": "http://openweathermap.org/img/w/01n.png",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

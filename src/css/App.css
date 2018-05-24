@@ -18,37 +18,3 @@ ol {
   list-style: none;
 }
 
-#tabs {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-auto-flow: row;
-  grid-row: 2;
-}
-
-#tabs > li:first-child {
-  grid-column: 1;
-}
-
-#tabs > li:last-child {
-  grid-column: 5;
-}
-
-.tab {
-  align-self: center;
-  justify-self: center;
-}
-
-#tab-panels {
-  align-self: center;
-  grid-row: 3;
-  justify-self: center;
-}
-
-#tab-panels > li {
-  display: none;
-}
-
-#tab-panels > li:target {
-  display: block;
-}
-

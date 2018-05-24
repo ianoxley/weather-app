@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './header';
+import SummaryTabs from './summary-tabs';
 import './css/App.css';
 
 const apiKey = process.env.REACT_APP_API_KEY;
@@ -61,23 +62,9 @@ class App extends Component {
             description={ list[0].weather[0].main }
             icon={ list[0].weather[0].icon }
           />
-          <ol id="tabs">
-            <li className="tab">
-              <a href="#day-1">Day 1</a>
-            </li>
-            <li className="tab">
-              <a href="#day-2">Day 2</a>
-            </li>
-            <li className="tab">
-              <a href="#day-3">Day 3</a>
-            </li>
-            <li className="tab">
-              <a href="#day-4">Day 4</a>
-            </li>
-            <li className="tab">
-              <a href="#day-5">Day 5</a>
-            </li>
-          </ol>
+          <SummaryTabs
+            data={ list }
+          />
           <ol id="tab-panels">
             <li id="day-1" className="tab-panel">
               <div>Content Day 1</div>
